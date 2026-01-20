@@ -1,10 +1,10 @@
-# 🧠 GPU-Accelerated VLSI Placement Tool – Local Setup & Execution Guide (Windows + Docker)
+# GPU-Accelerated VLSI Placement Tool – Local Setup & Execution Guide (Windows + Docker)
 
 This guide explains how I built, tested, and ran my custom GPU-accelerated VLSI placement engine locally on a Windows system using Docker and NVIDIA GPU support. The project includes step-wise visualization of the placement process across multiple iterations.
 
 ---
 
-## 🧰 System Requirements
+## System Requirements
 
 - **Operating System:** Windows 10/11  
 - **GPU:** NVIDIA GPU with Compute Capability ≥ 6.0  
@@ -17,7 +17,7 @@ This guide explains how I built, tested, and ran my custom GPU-accelerated VLSI 
 
 ---
 
-## ⚙️ Setup and Execution Steps
+## Setup and Execution Steps
 
 ### 1. Clone the Repository
 
@@ -82,7 +82,7 @@ python benchmarks/download_benchmarks.py
 
 ---
 
-## 🚀 Run a Benchmark with Visualization
+##  Run a Benchmark with Visualization
 
 ### 1. Edit Configuration File
 
@@ -101,7 +101,7 @@ python placer.py configs/adaptec1.json
 
 ---
 
-## 📊 Output and Visualization
+## Output and Visualization
 
 After execution, the following images are generated and stored in the `results/adaptec1/` folder:
 
@@ -132,7 +132,7 @@ Or use [EZGIF](https://ezgif.com/maker) online.
 
 ---
 
-## ✅ Summary
+## Summary
 
 - Successfully built and ran a custom GPU-accelerated VLSI placement tool using Docker and NVIDIA GPU on Windows.
 - Benchmarks executed with visual tracking of the placement progression.
